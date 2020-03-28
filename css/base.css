@@ -1,0 +1,40 @@
+/* 倒三角 */
+.triangle-down{
+      border:5px solid #666666 ;
+      border-style: solid dashed dashed;
+      border-color:  #666666 transparent transparent;
+      width: 0;
+      height: 0;
+}
+
+/* 单三角 */
+.triangle-up-shang{
+      position: relative;
+}
+.triangle-up-shang::before , .triangle-up-shang::after{
+      content: "";
+      border: 5px solid #f1f1f1;
+      border-style:dashed dashed solid ;
+      border-color: transparent transparent #f1f1f1;
+      width: 0;
+      height: 0;
+      position: absolute;
+      left: 50%;
+      top: -12px;
+}
+.triangle-up-shang::after{
+      border-color: transparent transparent #ffffff;
+      top: -10px;
+}
+
+/* 清除浮动 */
+.clearfix::before , .clearfix::after{
+      content: "";
+      display: table;
+}
+.clearfix::after{
+      clear: both;
+      height: 0;
+      line-height: 0;
+      visibility: hidden;
+}

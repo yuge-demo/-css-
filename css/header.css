@@ -1,0 +1,124 @@
+.header .top {
+  margin: 0 auto;
+  width: 1200px;
+  height: 74px;
+  padding-top: 24px;
+  border: 1px solid #ff6700;
+}
+.header .top .logo {
+  float: left;
+}
+
+.header .top .search {
+  margin: 0 265px 0 357px;
+  padding-top: 10px;
+}
+.header .top .search .search-a {
+  display: inline-block;
+  width: 66px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  border-right: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.course-menu {
+  position: absolute;
+  /* text-align: center; */
+  margin-left: -1px;
+  display: none;
+}
+.course-menu .course-item {
+  width: 66px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #e0e0e0;
+}
+.search-a:hover .course-menu {
+  display: block;
+}
+.course-item:hover {
+  background-color: #ff6700;
+}
+
+.search .search-a,
+.search input {
+  float: left;
+}
+.header .top .search .search-a .icon-triangle {
+  float: right;
+  margin: 14px 8px;
+}
+.header .top .search input {
+  display: inline-block;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  border: 1px solid #e0e0e0;
+}
+.header .top .search .glass {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: -32px;
+  background: url("./../img/search.gif") no-repeat center;
+  background-size: contain;
+  border: none;
+}
+.header .top .user {
+  margin-top: -45px;
+  float: right;
+}
+.header .top .user {
+  padding-top: 5px;
+}
+
+.header .user .user-nav-item {
+  float: left;
+  height: 42px;
+  line-height: 42px;
+  margin: 0 11px 0 14px;
+}
+.header .user .msg-wrap {
+  position: relative;
+  top: 10px;
+  width: 34px;
+  height: 40px;
+  background: url("../img/sprite-msg.png") left top;
+}
+.header .user .img {
+  height: 40px;
+  width: 42px;
+  border-radius: 50%;
+}
+.header .user .msg-wrap .msg {
+  position: relative;
+  top: -19px;
+  right: -15px;
+  display: inline-block;
+  width: 34px;
+  height: 40px;
+  line-height: 16px;
+  padding-left: 4px;
+  background: url("../img/sprite-msg.png") no-repeat left bottom;
+}
+.header .user .msg-num {
+  color: #fff;
+}
+
+.header .user .icon {
+  display: inline-block;
+  margin: 17px 0 0 7px;
+}
+.header .user .user-menu-cover{}
+
+.header .bottom {
+  margin: 0 auto;
+  width: 1200px;
+  height: 60px;
+  line-height: 60px;
+}
