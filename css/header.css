@@ -3,7 +3,6 @@
   width: 1200px;
   height: 74px;
   padding-top: 24px;
-  border: 1px solid #ff6700;
 }
 .header .top .logo {
   float: left;
@@ -82,6 +81,7 @@
   height: 42px;
   line-height: 42px;
   margin: 0 11px 0 14px;
+  position: relative;
 }
 .header .user .msg-wrap {
   position: relative;
@@ -114,7 +114,55 @@
   display: inline-block;
   margin: 17px 0 0 7px;
 }
-.header .user .user-menu-cover{}
+.header .user .user-menu-cover {
+  position: absolute;
+  display: none;
+}
+.header .user .user-nav-item:hover  .user-menu-cover{
+  display: block;
+}
+.user-menu-cover li {
+  display: block;
+  border: 1px solid #f1f1f1;
+  width: 124px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.user-menu-cover li:hover{
+  background-color: #ff6700;
+}
+.user-menu-cover li:nth-child(1),
+.user-menu-cover li:nth-child(2),
+.user-menu-cover li:nth-child(3) {
+  border-bottom: none;
+}
+
+.header .user .user-menu-teacher {
+  position: absolute;
+  display: none;
+  left: -30px;
+}
+.header .user .user-nav-item:hover  .user-menu-teacher{
+  display: block;
+}
+.user-menu-teacher li {
+  display: block;
+  border: 1px solid #f1f1f1;
+  width: 124px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.user-menu-teacher li:hover{
+  background-color: #ff6700;
+}
+.user-menu-teacher li:nth-child(1),
+.user-menu-teacher li:nth-child(2),
+.user-menu-teacher li:nth-child(3) {
+  border-bottom: none;
+}
+
 
 .header .bottom {
   margin: 0 auto;

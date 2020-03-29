@@ -13,18 +13,19 @@
 }
 .triangle-up-shang::before , .triangle-up-shang::after{
       content: "";
-      border: 5px solid #f1f1f1;
+      border: 6px solid #f1f1f1;
       border-style:dashed dashed solid ;
-      border-color: transparent transparent #f1f1f1;
+      border-color: transparent transparent #a18d8d;
       width: 0;
       height: 0;
       position: absolute;
       left: 50%;
-      top: -12px;
+      top: -11px;
 }
 .triangle-up-shang::after{
       border-color: transparent transparent #ffffff;
-      top: -10px;
+      top: -11px;
+      z-index: 10;
 }
 
 /* 清除浮动 */
