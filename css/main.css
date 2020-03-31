@@ -1,0 +1,43 @@
+.main .container {
+  margin: 0 auto;
+  width: 1190px;
+  margin-bottom: 20px;
+}
+.main .head {
+  height: 55px;
+  line-height: 55px;
+  font-size: 22px;
+  color: #1a1a1a;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.main .head .p-title {
+  float: left;
+  height: 22px;
+  line-height: 22px;
+  padding-left: 18px;
+  border-left: 7px solid #2db0f9;
+}
+.main .head .p-more {
+  float: right;
+  height: 22px;
+  line-height: 22px;
+  font-size: 18px;
+  color: #5db0f9;
+}
+.main .body {
+  padding-top: 10px;
+}
+
+.main .body .list .list-item {
+  font-size: 14px;
+  margin: 0 15px;
+  line-height: 28px;
+  color: #1a1a1a;
+  float: left;
+}
+.main .body .list .list-item .p-img {
+  width: 205px;
+  height: 180px;
+  border: 1px solid #e1e1e1;
+}
