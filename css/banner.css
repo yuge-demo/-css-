@@ -1,0 +1,39 @@
+.banner {
+      overflow: hidden;
+      height: 404px;
+      width: 100%;
+      position: relative;
+      background-color: #61caff;
+    }
+    
+    .banner .banner-img {
+      width: 100%;
+    }
+    
+    .banner .slide-bar {
+      position: absolute;
+      left: 50%;
+      margin-left: -45px;
+      z-index: 100;
+      top: 376px;
+      width: 90px;
+      height: 14px;
+      /* background-color: #d09; */
+    }
+    
+    .banner .slide-bar .slide-btn {
+      float: left;
+    }
+    
+    .banner .slide-btn a {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      background: url('../img/ico_circle.png') no-repeat -73px 0;
+      margin-right: 15px;
+    }
+    
+    .banner .slide-btn a.cur-banner, .banner .slide-btn a:hover {
+      background: url('../img/ico_circle.png') no-repeat -58px -22px;
+    }
+    
